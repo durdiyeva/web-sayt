@@ -1,0 +1,32 @@
+.h1{
+    text-align: center;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(85, 7, 46);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+.box{
+    border: 1px solid red;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    background-color: rgb(133, 168, 157);
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(12, 180, 180);
+    margin: 50px;
+}
